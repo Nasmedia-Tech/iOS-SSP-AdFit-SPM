@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "adfit-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adfit/adfit-spm",
+      "state" : {
+        "revision" : "cde885bd4f48784b0e7b0bdfb10e31d03d0644d7",
+        "version" : "3.14.5"
+      }
+    },
+    {
+      "identity" : "ios-ssp-mediation-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Nasmedia-Tech/iOS-SSP-Mediation-SPM.git",
+      "state" : {
+        "revision" : "d746f523b89f4bbdd05a2f9339416f30ee61f275",
+        "version" : "2.0.8"
+      }
+    }
+  ],
+  "version" : 2
+}
