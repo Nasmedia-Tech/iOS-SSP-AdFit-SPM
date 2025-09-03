@@ -23,4 +23,11 @@ Swift Package Manager를 통해 설치합니다.
 
 ## 🛠 사용 방법
 
-상세 연동 방법은 제공된 가이드를 참고해주세요. 
+자세한 연동 방법은 [연동 가이드](https://nasmob.atlassian.net/wiki/spaces/ASIG/pages/744620513/iOS+SDK)를 참고해주세요. 
+
+<br> 
+
+## 📮 문의하기
+
++ [퍼블리셔 사이트](https://publisher.admixer.co.kr/signin)
++ nap_adx@nasmedia.co.kr
