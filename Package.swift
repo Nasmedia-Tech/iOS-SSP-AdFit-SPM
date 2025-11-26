@@ -19,7 +19,7 @@ let package = Package(
         // SSP AdMixerMediation SDK
         .package(
             url: "https://github.com/Nasmedia-Tech/iOS-SSP-Mediation-SPM.git",
-            branch: "main"
+            exact: "2.1.1-beta.5"
         )
     ],
     targets: [
