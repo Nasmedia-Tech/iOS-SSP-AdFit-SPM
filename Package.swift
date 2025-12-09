@@ -19,14 +19,14 @@ let package = Package(
         // SSP AdMixerMediation SDK
         .package(
             url: "https://github.com/Nasmedia-Tech/iOS-SSP-Mediation-SPM.git",
-            exact: "2.1.1-beta.5"
+            exact: "2.1.2"
         )
     ],
     targets: [
         .binaryTarget(
             name: "AdMixerMediationAdFitBinary",
-            url: "https://github.com/Nasmedia-Tech/iOS-AdMixerDownload/raw/main/AdMixerMediationAdFit1.0.3.xcframework.zip",
-            checksum: "ed0deff8024e6c922573f7099e3703a263073c578a21de6d2ed181e37ce53090"
+            url: "https://github.com/Nasmedia-Tech/iOS-AdMixerDownload/raw/main/AdMixerMediationAdFit1.0.4.xcframework.zip",
+            checksum: "ac705b519829db05fbd2497c5fe5bee93e96a3289a01225db2a8ba9771d60bd7"
         ),
         .target(
             name: "iOS_SSP_AdFit_SPM",
