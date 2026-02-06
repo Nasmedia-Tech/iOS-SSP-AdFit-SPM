@@ -14,7 +14,7 @@ let package = Package(
         // AdFit SDK
         .package(
             url: "https://github.com/adfit/adfit-spm",
-            exact: "3.14.5"
+            from: "3.14.5"
         ),
         // SSP AdMixerMediation SDK
         .package(
