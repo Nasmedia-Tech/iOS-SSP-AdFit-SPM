@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "AdMixerMediationAdFit",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "AdMixerMediationAdFit",
@@ -14,7 +14,7 @@ let package = Package(
         // AdFit SDK
         .package(
             url: "https://github.com/adfit/adfit-spm",
-            from: "3.14.5"
+            "3.14.7"..<"3.18.7"
         ),
         // SSP AdMixerMediation SDK
         .package(
@@ -25,8 +25,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdMixerMediationAdFitBinary",
-            url: "https://github.com/Nasmedia-Tech/iOS-AdMixerDownload/raw/main/AdMixerMediationAdFit1.0.4.xcframework.zip",
-            checksum: "ac705b519829db05fbd2497c5fe5bee93e96a3289a01225db2a8ba9771d60bd7"
+            url: "https://github.com/Nasmedia-Tech/iOS-AdMixerDownload/raw/main/AdMixerMediationAdFit1.0.5-beta.xcframework.zip",
+            checksum: "894ed0479f943b2542848bf608773741024248ec63ebb92c1a022a384a74e66f"
         ),
         .target(
             name: "iOS_SSP_AdFit_SPM",
