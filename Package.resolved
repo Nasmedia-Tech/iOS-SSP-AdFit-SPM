@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/adfit/adfit-spm",
       "state" : {
-        "revision" : "2ecb8d10524a80b65b4bc475c94d3484667655d2",
-        "version" : "3.18.6"
+        "revision" : "31c7019d05140474793a8f77bbe4964dd0478c13",
+        "version" : "3.18.3"
       }
     },
     {
